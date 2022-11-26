@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Navbar.css';
-
+import Img from './Cartwidget';
 function Navbar() {
   return (
     <div>
         <nav>
+        <Img/>
             <div>
-            <img src=''/>
             <button>Tipo</button>
             <button>Alfabetico</button>
             <button>Legendarios</button>
